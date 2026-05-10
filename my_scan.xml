@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetasploitV5>
+<generated time="2026-05-10 16:57:11 UTC" user="zakia" project="default" product="framework"/>
+<hosts>
+  <host>
+    <id>2</id>
+    <created-at>2026-05-10 16:20:16 UTC</created-at>
+    <address>192.168.229.1</address>
+    <mac>00:50:56:c0:00:08</mac>
+    <comm></comm>
+    <name/>
+    <state>alive</state>
+    <os-name>Unknown</os-name>
+    <os-flavor/>
+    <os-sp/>
+    <os-lang/>
+    <arch/>
+    <workspace-id>1</workspace-id>
+    <updated-at>2026-05-10 16:36:25 UTC</updated-at>
+    <purpose>device</purpose>
+    <info/>
+    <comments/>
+    <scope/>
+    <virtual-host/>
+    <note-count>0</note-count>
+    <vuln-count>0</vuln-count>
+    <service-count>9</service-count>
+    <host-detail-count>0</host-detail-count>
+    <exploit-attempt-count>0</exploit-attempt-count>
+    <cred-count>0</cred-count>
+    <detected-arch/>
+    <os-family/>
+    <host_details>
+    </host_details>
+    <exploit_attempts>
+    </exploit_attempts>
+    <services>
+      <service>
+      <id>6</id>
+      <host-id>2</host-id>
+      <created-at>2026-05-10 16:36:25 UTC</created-at>
+      <port>902</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>ssl/vmware-auth</name>
+      <updated-at>2026-05-10 16:36:25 UTC</updated-at>
+      <info>VMware Authentication Daemon 1.10 Uses VNC, SOAP</info>
+      <resource>BAh7AA==</resource>
+      </service>
+      <service>
+      <id>1</id>
+      <host-id>2</host-id>
+      <created-at>2026-05-10 16:26:47 UTC</created-at>
+      <port>902</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>iss-realsecure</name>
+      <updated-at>2026-05-10 16:26:47 UTC</updated-at>
+      <info></info>
+      <resource>BAh7AA==</resource>
+      </service>
+      <service>
+      <id>7</id>
+      <host-id>2</host-id>
+      <created-at>2026-05-10 16:36:25 UTC</created-at>
+      <port>912</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>vmware-auth</name>
+      <updated-at>2026-05-10 16:36:25 UTC</updated-at>
+      <info>VMware Authentication Daemon 1.0 Uses VNC, SOAP</info>
+      <resource>BAh7AA==</resource>
+      </service>
+      <service>
+      <id>2</id>
+      <host-id>2</host-id>
+      <created-at>2026-05-10 16:26:47 UTC</created-at>
+      <port>912</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>apex-mesh</name>
+      <updated-at>2026-05-10 16:26:47 UTC</updated-at>
+      <info></info>
+      <resource>BAh7AA==</resource>
+      </service>
+      <service>
+      <id>3</id>
+      <host-id>2</host-id>
+      <created-at>2026-05-10 16:26:47 UTC</created-at>
+      <port>5040</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name/>
+      <updated-at>2026-05-10 16:26:47 UTC</updated-at>
+      <info></info>
+      <resource>BAh7AA==</resource>
+      </service>
+      <service>
+      <id>4</id>
+      <host-id>2</host-id>
+      <created-at>2026-05-10 16:26:47 UTC</created-at>
+      <port>5357</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>wsdapi</name>
+      <updated-at>2026-05-10 16:26:47 UTC</updated-at>
+      <info></info>
+      <resource>BAh7AA==</resource>
+      </service>
+      <service>
+      <id>8</id>
+      <host-id>2</host-id>
+      <created-at>2026-05-10 16:36:25 UTC</created-at>
+      <port>5357</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>http</name>
+      <updated-at>2026-05-10 16:36:25 UTC</updated-at>
+      <info>Microsoft HTTPAPI httpd 2.0 SSDP/UPnP</info>
+      <resource>BAh7AA==</resource>
+      </service>
+      <service>
+      <id>9</id>
+      <host-id>2</host-id>
+      <created-at>2026-05-10 16:36:27 UTC</created-at>
+      <port>59005</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>tcpwrapped</name>
+      <updated-at>2026-05-10 16:36:27 UTC</updated-at>
+      <info></info>
+      <resource>BAh7AA==</resource>
+      </service>
+      <service>
+      <id>5</id>
+      <host-id>2</host-id>
+      <created-at>2026-05-10 16:26:48 UTC</created-at>
+      <port>59005</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name/>
+      <updated-at>2026-05-10 16:26:48 UTC</updated-at>
+      <info></info>
+      <resource>BAh7AA==</resource>
+      </service>
+    </services>
+    <notes>
+    </notes>
+    <vulns>
+    </vulns>
+  </host>
+  <host>
+    <id>3</id>
+    <created-at>2026-05-10 16:20:17 UTC</created-at>
+    <address>192.168.229.2</address>
+    <mac>00:50:56:F8:D2:8D</mac>
+    <comm></comm>
+    <name/>
+    <state>alive</state>
+    <os-name/>
+    <os-flavor/>
+    <os-sp/>
+    <os-lang/>
+    <arch/>
+    <workspace-id>1</workspace-id>
+    <updated-at>2026-05-10 16:20:17 UTC</updated-at>
+    <purpose/>
+    <info/>
+    <comments/>
+    <scope/>
+    <virtual-host/>
+    <note-count>0</note-count>
+    <vuln-count>0</vuln-count>
+    <service-count>0</service-count>
+    <host-detail-count>0</host-detail-count>
+    <exploit-attempt-count>0</exploit-attempt-count>
+    <cred-count>0</cred-count>
+    <detected-arch/>
+    <os-family/>
+    <host_details>
+    </host_details>
+    <exploit_attempts>
+    </exploit_attempts>
+    <services>
+    </services>
+    <notes>
+    </notes>
+    <vulns>
+    </vulns>
+  </host>
+  <host>
+    <id>1</id>
+    <created-at>2026-05-10 16:07:29 UTC</created-at>
+    <address>192.168.229.131</address>
+    <mac/>
+    <comm></comm>
+    <name/>
+    <state>alive</state>
+    <os-name/>
+    <os-flavor/>
+    <os-sp/>
+    <os-lang/>
+    <arch/>
+    <workspace-id>1</workspace-id>
+    <updated-at>2026-05-10 16:07:29 UTC</updated-at>
+    <purpose/>
+    <info/>
+    <comments/>
+    <scope/>
+    <virtual-host/>
+    <note-count>0</note-count>
+    <vuln-count>0</vuln-count>
+    <service-count>0</service-count>
+    <host-detail-count>0</host-detail-count>
+    <exploit-attempt-count>0</exploit-attempt-count>
+    <cred-count>0</cred-count>
+    <detected-arch/>
+    <os-family/>
+    <host_details>
+    </host_details>
+    <exploit_attempts>
+    </exploit_attempts>
+    <services>
+    </services>
+    <notes>
+    </notes>
+    <vulns>
+    </vulns>
+  </host>
+  <host>
+    <id>4</id>
+    <created-at>2026-05-10 16:20:17 UTC</created-at>
+    <address>192.168.229.254</address>
+    <mac>00:50:56:EF:8E:DC</mac>
+    <comm></comm>
+    <name/>
+    <state>alive</state>
+    <os-name/>
+    <os-flavor/>
+    <os-sp/>
+    <os-lang/>
+    <arch/>
+    <workspace-id>1</workspace-id>
+    <updated-at>2026-05-10 16:20:17 UTC</updated-at>
+    <purpose/>
+    <info/>
+    <comments/>
+    <scope/>
+    <virtual-host/>
+    <note-count>0</note-count>
+    <vuln-count>0</vuln-count>
+    <service-count>0</service-count>
+    <host-detail-count>0</host-detail-count>
+    <exploit-attempt-count>0</exploit-attempt-count>
+    <cred-count>0</cred-count>
+    <detected-arch/>
+    <os-family/>
+    <host_details>
+    </host_details>
+    <exploit_attempts>
+    </exploit_attempts>
+    <services>
+    </services>
+    <notes>
+    </notes>
+    <vulns>
+    </vulns>
+  </host>
+</hosts>
+<events>
+  <event>
+      <id>1</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-05-10 16:01:44 UTC</created-at>
+      <name>ui_start</name>
+      <updated-at>2026-05-10 16:01:44 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoNcmV2aXNpb24iDyRSZXZpc2lvbiQ=</info>
+  </event>
+
+  <event>
+      <id>2</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-05-10 16:01:44 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-05-10 16:01:44 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCILYmFubmVy</info>
+  </event>
+
+  <event>
+      <id>3</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-05-10 16:03:14 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-05-10 16:03:14 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIOZGJfc3RhdHVz</info>
+  </event>
+
+  <event>
+      <id>4</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-05-10 16:04:05 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-05-10 16:04:05 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIgZGJfbm1hcCAtc1YgMTkyLjE2OC4yMjkuMTMx</info>
+  </event>
+
+  <event>
+      <id>5</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-05-10 16:11:18 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-05-10 16:11:18 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIkZGJfbm1hcCAtUG4gLXNWIDE5Mi4xNjguMjI5LjEzMQ==</info>
+  </event>
+
+  <event>
+      <id>6</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-05-10 16:17:19 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-05-10 16:17:19 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCInZGJfbm1hcCAtUG4gLXNVIC1GIDE5Mi4xNjguMjI5LjEzMQ==</info>
+  </event>
+
+  <event>
+      <id>7</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-05-10 16:20:12 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-05-10 16:20:12 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIhZGJfbm1hcCAtc24gMTkyLjE2OC4yMjkuMC8yNA==</info>
+  </event>
+
+  <event>
+      <id>8</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-05-10 16:24:15 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-05-10 16:24:15 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCImZGJfbm1hcCAtc1QgLVQ0IC1wLSAxOTIuMTY4LjIyOS4x</info>
+  </event>
+
+  <event>
+      <id>9</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-05-10 16:34:52 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-05-10 16:34:52 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCI5ZGJfbm1hcCAtc1YgLXAgOTAyLDkxMiw1MDQwLDUzNTcsNTkwMDUgMTkyLjE2OC4yMjkuMQ==</info>
+  </event>
+
+  <event>
+      <id>10</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-05-10 16:46:06 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-05-10 16:46:06 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCINc2VydmljZXM=</info>
+  </event>
+
+  <event>
+      <id>11</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-05-10 16:57:11 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-05-10 16:57:11 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCItZGJfZXhwb3J0IC1mIHhtbCAvaG9tZS96YWtpYS9teV9zY2FuLnhtbA==</info>
+  </event>
+
+</events>
+<services>
+  <service>
+      <id>6</id>
+      <host-id>2</host-id>
+      <created-at>2026-05-10 16:36:25 UTC</created-at>
+      <port>902</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>ssl/vmware-auth</name>
+      <updated-at>2026-05-10 16:36:25 UTC</updated-at>
+      <info>VMware Authentication Daemon 1.10 Uses VNC, SOAP</info>
+      <resource>BAh7AA==</resource>
+  </service>
+
+  <service>
+      <id>1</id>
+      <host-id>2</host-id>
+      <created-at>2026-05-10 16:26:47 UTC</created-at>
+      <port>902</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>iss-realsecure</name>
+      <updated-at>2026-05-10 16:26:47 UTC</updated-at>
+      <info></info>
+      <resource>BAh7AA==</resource>
+  </service>
+
+  <service>
+      <id>7</id>
+      <host-id>2</host-id>
+      <created-at>2026-05-10 16:36:25 UTC</created-at>
+      <port>912</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>vmware-auth</name>
+      <updated-at>2026-05-10 16:36:25 UTC</updated-at>
+      <info>VMware Authentication Daemon 1.0 Uses VNC, SOAP</info>
+      <resource>BAh7AA==</resource>
+  </service>
+
+  <service>
+      <id>2</id>
+      <host-id>2</host-id>
+      <created-at>2026-05-10 16:26:47 UTC</created-at>
+      <port>912</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>apex-mesh</name>
+      <updated-at>2026-05-10 16:26:47 UTC</updated-at>
+      <info></info>
+      <resource>BAh7AA==</resource>
+  </service>
+
+  <service>
+      <id>3</id>
+      <host-id>2</host-id>
+      <created-at>2026-05-10 16:26:47 UTC</created-at>
+      <port>5040</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name/>
+      <updated-at>2026-05-10 16:26:47 UTC</updated-at>
+      <info></info>
+      <resource>BAh7AA==</resource>
+  </service>
+
+  <service>
+      <id>4</id>
+      <host-id>2</host-id>
+      <created-at>2026-05-10 16:26:47 UTC</created-at>
+      <port>5357</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>wsdapi</name>
+      <updated-at>2026-05-10 16:26:47 UTC</updated-at>
+      <info></info>
+      <resource>BAh7AA==</resource>
+  </service>
+
+  <service>
+      <id>8</id>
+      <host-id>2</host-id>
+      <created-at>2026-05-10 16:36:25 UTC</created-at>
+      <port>5357</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>http</name>
+      <updated-at>2026-05-10 16:36:25 UTC</updated-at>
+      <info>Microsoft HTTPAPI httpd 2.0 SSDP/UPnP</info>
+      <resource>BAh7AA==</resource>
+  </service>
+
+  <service>
+      <id>9</id>
+      <host-id>2</host-id>
+      <created-at>2026-05-10 16:36:27 UTC</created-at>
+      <port>59005</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>tcpwrapped</name>
+      <updated-at>2026-05-10 16:36:27 UTC</updated-at>
+      <info></info>
+      <resource>BAh7AA==</resource>
+  </service>
+
+  <service>
+      <id>5</id>
+      <host-id>2</host-id>
+      <created-at>2026-05-10 16:26:48 UTC</created-at>
+      <port>59005</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name/>
+      <updated-at>2026-05-10 16:26:48 UTC</updated-at>
+      <info></info>
+      <resource>BAh7AA==</resource>
+  </service>
+
+</services>
+<web_sites>
+</web_sites>
+<web_pages>
+</web_pages>
+<web_forms>
+</web_forms>
+<web_vulns>
+</web_vulns>
+<module_details>
+</module_details>
+</MetasploitV5>
